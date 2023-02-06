@@ -30,4 +30,4 @@ jobs:
         run: echo "Depluing & uploading..."
       - name: Set result output
         id: set-result
-        run: echo "step-result=success" >> $GITHUB_OUTPUT
+        run: echo "::set-ouptput name=step-result::success"
